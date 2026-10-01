@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   health:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Encode diagnostics
         env:
